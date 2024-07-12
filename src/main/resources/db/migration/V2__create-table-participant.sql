@@ -6,3 +6,4 @@ CREATE TABLE participants (
     trip_id UUID,
     FOREIGN KEY (trip_id) REFERENCES trips(id)
 )
+
